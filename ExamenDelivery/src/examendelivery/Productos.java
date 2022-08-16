@@ -3,18 +3,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package examendelivery;
-import java.util.Scanner; 
-/**
- *
- * @author USER
- */
+
 public class Productos {
-    Scanner entrada = new Scanner(System.in)
     String producto;
     int precio; 
    
-    
-    
-    
+    public Productos (String producto, int precio) {
+    this.producto = producto;
+    this.precio = precio; 
+        
+    }  
+    public String getProducto () {
+    return producto; 
+    }
+    public int getPrecio () {
+    return precio; 
+    }
 }   
-pub

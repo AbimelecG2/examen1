@@ -4,9 +4,7 @@
  */
 package examendelivery;
 import java.util.Scanner;
- *
- * @author USER
- */
+
 public class ExamenDelivery {
 
     /**
@@ -16,6 +14,7 @@ public class ExamenDelivery {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         int opcion;
+         
         System.out.println("----MENU----");
         System.out.println("1. Cliente");
         System.out.println("2. Vendedor");

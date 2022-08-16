@@ -11,9 +11,12 @@ import java.util.Scanner;
 public class Usuarios {
     Scanner entrada = new Scanner(System.in);
     String nombre;
-    
-   System.out.print("Ingrese su nombre: ");
-   nombre = entrada.nextLine(); 
    
+    public Usuarios (String nombre){
+    this.nombre = nombre; 
+    }
     
+    public String getNombre () {
+    return nombre; 
+    }
 }
