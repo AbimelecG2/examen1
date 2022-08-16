@@ -26,15 +26,18 @@ public class ExamenDelivery {
         
       if (opcion == 1) {
               Cliente client1 = new Cliente("Fernando","Residencial Valle Azul","Zapatos deportivos", 2000);
+              System.out.println("\n");
                 client1.mostrarDatosCliente(); 
                 } 
       
       if (opcion ==2) {
                Vendedor vend1 = new Vendedor ("Luis", 7263838);
+               System.out.println("\n");
                vend1.mostrarDatosVendedor();
               }
       if (opcion ==3) {
                 Repartidor repar1 = new Repartidor ("Felipe","20 minutos");
+                System.out.println("\n");
                 repar1.mostrarDatosRepartidor();
       }
         }
