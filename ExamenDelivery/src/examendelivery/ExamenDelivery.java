@@ -22,12 +22,22 @@ public class ExamenDelivery {
         System.out.print("Elija el usuario al que corresponde: ");
         opcion= entrada.nextInt(); 
         
-        switch (opcion)
-        {
         
         
+      if (opcion == 1) {
+              Cliente client1 = new Cliente("Fernando","Residencial Valle Azul","Zapatos deportivos", 2000);
+                client1.mostrarDatosCliente(); 
+                } 
+      
+      if (opcion ==2) {
+               Vendedor vend1 = new Vendedor ("Luis", 7263838);
+               vend1.mostrarDatosVendedor();
+              }
+      if (opcion ==3) {
+                Repartidor repar1 = new Repartidor ("Felipe","20 minutos");
+                repar1.mostrarDatosRepartidor();
+      }
         }
-        
     }
     
-}
+

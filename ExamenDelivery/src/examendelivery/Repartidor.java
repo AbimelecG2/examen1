@@ -9,10 +9,10 @@ package examendelivery;
  * @author USER
  */
 public class Repartidor extends Usuarios{
-     int tiempoEntrega;
+     protected  String tiempoEntrega;
     
     
-    public Reapartidor(String nombre, inttiempoEntrega ){
+    public Repartidor(String nombre, String tiempoEntrega ){
     super(nombre);
     this.tiempoEntrega=tiempoEntrega;
     }
@@ -21,4 +21,4 @@ public class Repartidor extends Usuarios{
    System.out.println("Nombre: "+getNombre()+"\nTiempo de Entrega: "+tiempoEntrega);
    } 
 }
-}
+

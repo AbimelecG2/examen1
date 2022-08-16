@@ -9,15 +9,19 @@ package examendelivery;
  * @author USER
  */
 public class Cliente extends Usuarios {
-    String direccion;
+   protected String direccion;
+   protected  String producto;
+   protected  int precio; 
     
-    
-    public Cliente(String nombre, String direccion){
+    public Cliente(String nombre, String direccion, String producto, int precio){
     super (nombre);
-    this.direccion = direccion;
+    this.direccion=direccion;
+    this.producto=producto;
+    this.precio=precio;
     }
+
    public void mostrarDatosCliente(){
    
-   System.out.println("Nombre: "+getNombre()+ "\nDireccion: "+direccion);
+   System.out.println("Nombre: "+getNombre()+ "\nDireccion: "+direccion+ "\nEl producto que lleva es: "+producto+ "\nEl precio de producto es: "+precio);
    }  
 }

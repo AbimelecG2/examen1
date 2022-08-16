@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author USER
  */
-public class Usuarios {
+public abstract class Usuarios {
     Scanner entrada = new Scanner(System.in);
     String nombre;
    

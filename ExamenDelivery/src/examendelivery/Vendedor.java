@@ -9,7 +9,7 @@ package examendelivery;
  * @author USER
  */
 public class Vendedor extends Usuarios{
-    int codigo;
+    protected  int codigo;
     
     
     public Vendedor(String nombre, int codigo){
